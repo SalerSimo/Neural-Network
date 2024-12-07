@@ -13,7 +13,7 @@ class NeuralNetwork():
         self.layers_size = len(layers) + 1
         self.layers_dim = layers
         self.layers_dim.append(self.class_size)
-        self.learning_rate = 0.02
+        self.learning_rate = 0.01
 
         self.w = []
         self.b = []
