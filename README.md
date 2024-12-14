@@ -13,10 +13,10 @@ It enables training a neural network with dynamic hidden layers to classify digi
 
 2. Install the required python packages
     ```bash
-    python install -r requiriments.txt
+    python install -r requirements.txt
     ```
 ## Usage
-This repository includes a csv file named `datasetCsv`, containing 5000 images -- 500 for each number from 0 to 9.  
+This repository includes a csv file named `datasetCsv`, containing 5000 images, 500 for each number from 0 to 9.  
 The model will be automatically trained with this dataset.  
 To test the model, there are 200 images in the folder `MNIST testSet`
 
